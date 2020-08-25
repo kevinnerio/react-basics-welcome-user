@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #61DBFB;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html body ul{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+html body ul li{
+	width: calc(20vw);
+	float: left;
+	display: inline-block;	
+}
+li a{
+	color: white;
+	text-decoration: none;
+}
+li a:hover{
+	text-decoration: underline;
+}
+.header{
+	background-color: #282c34;
+	width: calc(100vw);
+}
+.root{
+	background-color: #282c34;
+}
+html body div#root.root{
+	background-color: #282c34;
+}
+.App{
+ 	width: 100vw;
+	height: 20vh;
+	float: left;
+}
+li.nav-item{
+	width: calc(20vw);
+	float: left;
+	display: inline-block;
+}
+.App-link{
+	text-decoration: none;
+}
+.page__viewMore{
+    padding: 5px;
+    background-color: white;
+    border: none;
+}
+.page__viewMore:visited, .newPage{
+     text-decoration: none;
+     color: black;
+}
+.page__viewMore:hover{
+     text-decoration: none;
+     background-color: #61dafb;
+}
+.main-nav{
+	width: 100%;
+	display: flex;
+}
